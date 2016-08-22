@@ -192,7 +192,7 @@ print(analysis, digits=4)</code></pre>
 ## Detection Rate         0.2843   0.1918   0.1732   0.1604   0.1830
 ## Detection Prevalence   0.2845   0.1935   0.1743   0.1638   0.1839
 ## Balanced Accuracy      0.9981   0.9959   0.9878   0.9959   0.9986</code></pre>
-<pre class="r"><code># It did pretty well (as you can see with an accuracy of 0.9927), try it on the results. Because it did so well, I assume a very small out-of-sample error.
+<pre class="r"><code># It did pretty well (as you can see with an accuracy of 0.9927), try it on the results. Because it did so well, I assume a very small out-of-sample error of 0.0073.
 results &lt;- predict(rfmodel, testingData)
 print(results)</code></pre>
 <pre><code>##  [1] B A B A A E D B A A B C B A E E A B B B
